@@ -227,7 +227,8 @@ span.exturl {
   text-decoration: none;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  default;
 }
 a:hover,
 span.exturl:hover {
@@ -686,7 +687,8 @@ pre .javascript .function {
 .post-body .tabs ul.nav-tabs li.tab.active a,
 .tabs-comment ul.nav-tabs li.tab.active a {
   color: var(--link-color);
-  cursor: default;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  default;
 }
 .post-body .tabs .tab-content .tab-pane,
 .tabs-comment .tab-content .tab-pane {
@@ -1247,7 +1249,8 @@ pre .javascript .function {
 .sidebar-nav li {
   border-bottom: 1px solid transparent;
   color: #666;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  default;
   display: inline-block;
   font-size: 0.875em;
 }
@@ -1275,7 +1278,8 @@ pre .javascript .function {
 .sidebar-toggle {
   background: #222;
   bottom: 45px;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  default;
   height: 14px;
   left: 30px;
   padding: 5px;
@@ -1487,7 +1491,8 @@ pre .javascript .function {
   bottom: -100px;
   box-sizing: border-box;
   color: #fff;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  default;
   left: 30px;
   opacity: 1;
   padding: 0 6px;
@@ -1821,7 +1826,8 @@ pre .javascript .function {
 }
 .posts-expand .post-meta time {
   border-bottom: 1px dashed #999;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  default;
 }
 .post-meta .post-meta-item + .post-meta-item::before {
   content: '|';
