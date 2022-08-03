@@ -227,8 +227,7 @@ span.exturl {
   text-decoration: none;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-  default;
+  cursor: pointer;
 }
 a:hover,
 span.exturl:hover {
@@ -687,8 +686,7 @@ pre .javascript .function {
 .post-body .tabs ul.nav-tabs li.tab.active a,
 .tabs-comment ul.nav-tabs li.tab.active a {
   color: var(--link-color);
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-  default;
+  cursor: default;
 }
 .post-body .tabs .tab-content .tab-pane,
 .tabs-comment .tab-content .tab-pane {
@@ -1170,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #82ff9f;
+  background: #599f32;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1249,8 +1247,7 @@ pre .javascript .function {
 .sidebar-nav li {
   border-bottom: 1px solid transparent;
   color: #666;
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-  default;
+  cursor: pointer;
   display: inline-block;
   font-size: 0.875em;
 }
@@ -1278,8 +1275,7 @@ pre .javascript .function {
 .sidebar-toggle {
   background: #222;
   bottom: 45px;
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-  default;
+  cursor: pointer;
   height: 14px;
   left: 30px;
   padding: 5px;
@@ -1491,8 +1487,7 @@ pre .javascript .function {
   bottom: -100px;
   box-sizing: border-box;
   color: #fff;
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-  default;
+  cursor: pointer;
   left: 30px;
   opacity: 1;
   padding: 0 6px;
@@ -1826,8 +1821,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta time {
   border-bottom: 1px dashed #999;
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-  default;
+  cursor: pointer;
 }
 .post-meta .post-meta-item + .post-meta-item::before {
   content: '|';
